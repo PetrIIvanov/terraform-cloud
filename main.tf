@@ -28,9 +28,9 @@ resource "yandex_compute_instance" "vm-1" {
     nat       = true
   }
 
-  metadata = {
-    ssh-keys = "cloud-user:${file("~/.ssh/id_rsa_hw72.pub")}"
-  }
+//  metadata = {
+//    ssh-keys = "cloud-user:${file("~/.ssh/id_rsa_hw72.pub")}"
+//  }
 }
 
 
